@@ -24,6 +24,10 @@ router.post('/', function (req, res) {
 
 });
 
+//edit a new user
+
+//delete a user
+
 //return all users in the database
 router.get('/', function (req, res) {
 
@@ -33,7 +37,5 @@ router.get('/', function (req, res) {
     });
 
 });
-
-module.exports = router;
 
 module.exports = router;
